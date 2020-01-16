@@ -1,0 +1,39 @@
+main {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 0px;
+  justify-content: center;
+}
+
+app-square {
+  border: 1px gray solid;
+  height: 100px;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.buttonNewGame {
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  color: aquamarine;
+  border-radius: 15px;
+  border: 2px solid blueviolet;
+  background-color: darkslategray;
+  box-shadow: 0 5px grey;
+}
+
+.buttonNewGame:hover {
+  color: blue;
+  background-color: cornflowerblue;
+}
+
+.buttonNewGame:active {
+  background-color: cornflowerblue;
+  box-shadow: 0 3px black;
+  transform: translateY(4px);
+}

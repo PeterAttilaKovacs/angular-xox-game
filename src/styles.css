@@ -1,0 +1,24 @@
+/* Global CSS */
+
+h1 {
+  font-family: 'Courier New';
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 5px 5px black;
+}
+
+h2 {
+  font-family: 'Courier New';
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 5px 5px blue;
+}
+
+:root {
+  background-color: darkslategray;
+}
+
+/* text body color */
+body {
+  color: aquamarine;
+}

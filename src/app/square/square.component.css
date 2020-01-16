@@ -1,0 +1,13 @@
+button {
+  border: 1px gray solid;
+  height: 100px;
+  width: 100px;
+  font-size: 90px;
+  color: coral;
+  background-color: aquamarine;
+}
+
+button:hover {
+  color: coral;
+  background-color: cornflowerblue;
+}
